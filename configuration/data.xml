@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <!-- General -->
+    <WaitTime>3</WaitTime>
+    <ScreenshotPath>./allure-screenshots/</ScreenshotPath> <!--./../allure-screenshots/ w/o Jenkins-->
+
+    <!-- Web -->
+    <Browser>Chrome</Browser>
+    <Url>http://parabank.parasoft.com/parabank/</Url>
+    <Username>peter_test</Username>
+    <Password>demo</Password>
+    <CsvLocation>ddt/loans.csv</CsvLocation> <!-- ../ddt/loans.csv w/o Jenkins -->
+    <ExecuteApplitools>no</ExecuteApplitools> <!--yes / no-->
+    <ApplitoolsKey>27xzojVRToQ7lVqN2K3vSMztFMm7yIGT2y8JU8j6h8U110</ApplitoolsKey>
+
+    <!-- Mobile -->
+    <MobileDevice>Android</MobileDevice>
+    <UDID>RF8M63QXEBZ</UDID>
+    <AppPackage>com.atidcollege.todolist</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <BundleId>com.atidcollege.todolist</BundleId>
+    <AppiumServer>http://localhost:4730/wd/hub</AppiumServer>
+
+    <!-- API -->
+    <UrlApi>http://localhost:3000/</UrlApi>
+
+    <!-- Electron -->
+    <ElectronApp>C:/Users/LENOVO/AppData/Local/Programs/todolist/Todolist.exe</ElectronApp>
+    <ElectronDriver>C:/Automation/electrondriver/electrondriver.exe</ElectronDriver>
+
+    <!-- Desktop -->
+    <ApplicationName>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</ApplicationName>
+    <WinAppDriverService>http://127.0.0.1:4723</WinAppDriverService>
+
+    <!-- Database -->
+    <DB_Path>C:/Automation/test_automation_final_project/ddt/users.db</DB_Path>
+
+    <!-- User Credentials -->
+    <FirstName>Peter</FirstName>
+    <LastName>Test</LastName>
+    <Address>123 Example Street</Address>
+    <City>New York</City>
+    <State>NY</State>
+    <ZipCode>10001</ZipCode>
+    <PhoneNumber>5551234</PhoneNumber>
+    <SSN>123-45-6789</SSN>
+</Environment>

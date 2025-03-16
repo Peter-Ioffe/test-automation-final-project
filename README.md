@@ -19,6 +19,7 @@ This repository was created to demonstrate a smart automation infrastructure. It
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [Setup](#setup)
+- [Screenshots](#screenshots)
 - [Notes](#notes)
 - [Contact](#contact)
 
@@ -152,6 +153,13 @@ With:
 ~~~bash
 <ScreenshotPath>./../allure-screenshots/</ScreenshotPath>
 ~~~
+---
+## Screenshots
+![Jenkins](https://imgur.com/tohC42S.png)
+
+![Allure 1](https://imgur.com/5hq4xwp.png)
+
+![Allure 2](https://imgur.com/FWt9B89.png)
 ---
 ## Notes
 It is essential to point out that this project is for demonstration purposes only. In an actual testing environment, it should be divided into several projects.

@@ -167,6 +167,6 @@ It is essential to point out that this project is for demonstration purposes onl
 ---
 ## Contact
 
-- **Author**: [Peter Ioffe](https://www.linkedin.com/in/peter-ioffe-594432155/) (LinkedIn)
+- **Author**: [Peter Ioffe](https://www.linkedin.com/in/peterioffe/) (LinkedIn)
 
 If you have any questions, suggestions, or issues, please reach out via LinkedIn or directly via GitHub.
